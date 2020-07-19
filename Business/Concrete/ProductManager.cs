@@ -21,7 +21,7 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-        [ValidationAspect(typeof(ProductValidator))]
+        [ValidationAspect(typeof(ProductValidator), Priority = 1)]
         public IResult Add(Product product)
         {
             _productDal.Add(product);

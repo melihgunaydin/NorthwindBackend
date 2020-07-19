@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dpjP1RQPJ4m8+8ZGYEMOXjpnWybgaGin1O+i8k7yk2ie9Z2YzsMqfkZC0TWRlxpHwZmPPbCsC/10K/Ul8iLbMg==",
+  "dgSpecHash": "tpSkPOPVgMNgYSZEMkziDXQ/aYwYp8qsxNphYcrSvgqLyVTKNqLG/dX9XbuAeTXtOm9dqbg+wbxQydQiVPC+lw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fenoh\\Desktop\\UDEMY\\WebApiCourse\\NorthwindBackend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fenoh\\.nuget\\packages\\castle.core\\1.2.0\\castle.core.1.2.0.nupkg.sha512",
-    "C:\\Users\\fenoh\\.nuget\\packages\\castle.dynamicproxy\\2.2.0\\castle.dynamicproxy.2.2.0.nupkg.sha512",
+    "C:\\Users\\fenoh\\.nuget\\packages\\autofac\\4.0.1\\autofac.4.0.1.nupkg.sha512",
+    "C:\\Users\\fenoh\\.nuget\\packages\\autofac.extras.dynamicproxy\\4.5.0\\autofac.extras.dynamicproxy.4.5.0.nupkg.sha512",
+    "C:\\Users\\fenoh\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\fluentvalidation\\8.5.0\\fluentvalidation.8.5.0.nupkg.sha512",
-    "C:\\Users\\fenoh\\.nuget\\packages\\log4net\\1.2.10\\log4net.1.2.10.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -35,7 +35,6 @@
     "C:\\Users\\fenoh\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\fenoh\\.nuget\\packages\\nlog\\1.0.0.505\\nlog.1.0.0.505.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -69,6 +68,7 @@
     "C:\\Users\\fenoh\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\fenoh\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
@@ -124,46 +124,5 @@
     "C:\\Users\\fenoh\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\fenoh\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Castle.Core 1.2.0' paketi, proje hedef çerçevesi '.NETStandard,Version=v2.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "Castle.Core",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'Castle.DynamicProxy 2.2.0' paketi, proje hedef çerçevesi '.NETStandard,Version=v2.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "Castle.DynamicProxy",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'log4net 1.2.10' paketi, proje hedef çerçevesi '.NETStandard,Version=v2.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "log4net",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'NLog 1.0.0.505' paketi, proje hedef çerçevesi '.NETStandard,Version=v2.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "NLog",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

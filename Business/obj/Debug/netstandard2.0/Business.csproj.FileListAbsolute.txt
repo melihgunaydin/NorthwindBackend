@@ -29,3 +29,4 @@ C:\Users\fenoh\Desktop\UDEMY\WebApiCourse\NorthwindBackend\Business\obj\Debug\ne
 C:\Users\fenoh\Desktop\UDEMY\WebApiCourse\NorthwindBackend\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\fenoh\Desktop\UDEMY\WebApiCourse\NorthwindBackend\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\fenoh\Desktop\UDEMY\WebApiCourse\NorthwindBackend\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\fenoh\Desktop\UDEMY\WebApiCourse\NorthwindBackend\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
